@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="loginScreen">
+
+        <div class="container">
+
+            <div class="row justify-content-center align-items-middle">
+
+                <div class="col-4">
+
+                    <!-- USER FIELD -->
+                    <div class="mb-3">
+                        <label for="loginUser" class="form-label">Usuario</label>
+                        <input class="form-control" id="loginPassword" aria-describedby="emailHelp" />
+                        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                    </div>
+
+                    <!-- PASSWORD FIELD -->
+                    <div class="mb-3">
+                        <label for="loginPassword" class="form-label">Contraseña</label>
+                        <input id="loginPassword" class="form-control" type="password" />
+                    </div>
+
+                    <!-- KEEP SESSION LOGGED -->
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-checkbox-input" id="loginKeepUserLogged" />
+                        <label for="loginKeepUserLogged" class="form-label">¿Desea perrmanecer loggeado?</label>
+                    </div>
+
+                    <!--BUTTON LOGGIN -->
+                    <button type="submit" class="btn btn-primary"> Entrar </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>

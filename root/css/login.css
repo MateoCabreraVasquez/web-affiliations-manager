@@ -1,0 +1,8 @@
+.loginScreen{
+    background:black;
+    position: absolute;
+    height: 100% !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+}
