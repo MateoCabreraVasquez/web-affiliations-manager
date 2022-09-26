@@ -1,8 +1,19 @@
+body {
+    color: blue;
+  }
+
+  
 .loginScreen{
-    background:black;
+    background-color:#1CAC78;	
     position: absolute;
     height: 100% !important;
     width: 100% !important;
     display: flex;
     align-items: center;
+}
+
+.loginCard {
+    background-color:#2a3439;	
+    border-radius: 25px;
+
 }
